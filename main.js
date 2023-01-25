@@ -40,8 +40,8 @@ function optionMenu(element) {
 
     elCard.innerHTML = "";
 
-    if (opt === "all") {
-      renderPost(menu);
+    if (opt == "all") {
+      newArray = menu;
     } else {
       menu.forEach((post) => {
         if (post.category == opt.toLowerCase()) {
